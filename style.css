@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+    border: solid;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: black;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
