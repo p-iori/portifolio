@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="flex justify-between text-black shadow-md p-6">
+          <div>
+              <a href="index.html">Portifólio Pedro Iori</a>
+            </div>
+            <div class="space-x-4">
+                <a href="index.html">Início</a>
+                <a href="index.html#projetos">Projetos</a>
+                <a href="contato.html">Contato</a>
+                <a href="#">Sobre</a>            
+            </div>
+    </nav>
+    <div class="container">
+        <h1 class="m-6 text-4xl font-bold font-mono text-center">Jogue comigo</h1>
+        <div class="board">
+            <div class="cell" id="1"></div>
+            <div class="cell" id="2"></div>
+            <div class="cell" id="3"></div>
+            <div class="cell" id="4"></div>
+            <div class="cell" id="5"></div>
+            <div class="cell" id="6"></div>
+            <div class="cell" id="7"></div>
+            <div class="cell" id="8"></div>
+            <div class="cell" id="9"></div>
+
+            <button class="text-white text-center bg-gray-600 rounded-md hover:bg-stone-700 hover:text-white" onclick="reset()">Resetar</button>
+
+        </div>
+    </div>
+
+    <p class="text-xs place-self-end justify-self-end mt-25 text-black">essa é a página de contato mesmo</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
